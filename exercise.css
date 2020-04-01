@@ -1,0 +1,43 @@
+.round{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    color: white;
+}
+.pil{
+    border-radius: 16px;
+    border: none;
+    padding: 8px;
+    color: white;
+}
+.round:hover{
+  
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+}
+.pil:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+}
+.biru{
+    background-color: blue;
+    border: 1px solid blue
+ 
+}
+.merah {
+    background-color: red;
+    border: 1px solid red
+}
+.hitam {
+    background-color: black;
+    border: 1px solid black
+}
+
+.container{
+    text-align: center; 
+    margin-top: 50px
+}

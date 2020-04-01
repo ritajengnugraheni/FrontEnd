@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FrontEnd</title>
+</head>
+<style>
+    table,
+    tr,
+    td {
+        border: 2px solid rgb(180, 36, 36);
+        /* urutan boleh beda  */
+        border-collapse: collapse;
+        /* color: blueviolet; */
+
+
+    }
+
+    thead {
+        color: red;
+        text-align: center
+    }
+
+    .text-green {
+        color: green
+    }
+
+    .container {
+        border: 1px solid black;
+        padding: 20px;
+        /* padding merupakan jarak antara isi dengan containernya  */
+        margin: 10px;
+        width: 30%;
+        height: 100%;
+        padding: 8px
+        
+        
+    }
+    .radius{
+        border-radius: 8px 0px
+    }
+    #name {
+        color: grey;
+        /* ini digunakan untuk memanggil id */
+    }
+</style>
+
+<body>
+    <center>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <td>No</td>
+                        <td>Nama</td>
+                        <td>Pekerjaan</td>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td>1</td>
+                    <td>Rita</td>
+                    <td>Designer</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ajeng</td>
+                    <td class="text-green">Front End Developer</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nugraheni</td>
+                    <td>Programmer</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <!-- <br> -->
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <td>No</td>
+                        <td>Nama</td>
+                        <td>Pekerjaan</td>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td>1</td>
+                    <td>Rita</td>
+                    <td>Designer</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td id="name">Ajeng</td>
+                    <td>Front End Developer</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nugraheni</td>
+                    <td>Programmer</td>
+                </tr>
+
+            </table>
+        </div>
+        <!-- <br> -->
+        <div class="container text-green radius">
+            ini text dalam div 
+        </div>
+        <div class="container">
+            <div class="container"></div>
+        </div>
+
+    </center>
+</body>
+
+</html>
